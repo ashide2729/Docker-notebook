@@ -30,8 +30,13 @@ That is where Docker comes in which helps us bundle the application with all the
 ## Docker How to?
 
 Now to Dockerize our application let’s take the basic procedure:
+
 1.)	Install Docker on your system 
+
 2.)	Using “docker pull” pull the required images like ubuntu, mongoDB, Angular etc.
+
 3.)	Run the image of ubuntu which will run as container
+
 4.)	Run other images inside it too
+
 5.)	Once that is achieved create an image of it and do “docker push” that will result in final image
